@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The RF.IT | IT Solutions for Your Digital World</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>RF - The RF.IT</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#vision">Our Vision</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>IT Solutions for Your Digital World</h2>
+    <p>Professional IT services for homes and small businesses. From network setup to device repairs, we've got you covered.</p>
+    <button onclick="document.getElementById('contact').scrollIntoView()">Get in Touch</button>
+  </section>
+
+  <section class="promo">
+    <p>🏆 Best Prices in Newcastle! We Come to You – Same Day Available!</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>We provide comprehensive IT solutions to keep your technology running smoothly.</p>
+    <div class="service-list">
+      <!-- Services listed here -->
+      <article>
+        <h3>Network Configuration</h3>
+        <ul>
+          <li>Wi-Fi installation & troubleshooting</li>
+          <li>Router configuration</li>
+          <li>Network security setup</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Computer Repairs</h3>
+        <ul>
+          <li>Hardware diagnostics & repair</li>
+          <li>Virus & malware removal</li>
+          <li>Data recovery services</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Mobile Device Support</h3>
+        <ul>
+          <li>Software upgrades</li>
+          <li>Security checks</li>
+          <li>Backups & restores</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Security Solutions</h3>
+        <ul>
+          <li>Antivirus installation</li>
+          <li>Firewall configuration</li>
+          <li>Security audits</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Smart Home Setup</h3>
+        <ul>
+          <li>Smart device installation</li>
+          <li>Home automation setup</li>
+          <li>Voice assistant integration</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Tech Training</h3>
+        <ul>
+          <li>One-on-one tutorials</li>
+          <li>Software training</li>
+          <li>Cybersecurity awareness</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About The RF.IT</h2>
+    <p>Founded in 2020 in Newcastle, The RF.IT has been providing top-notch IT services to homes and small businesses in the community. Our team of certified technicians brings years of experience to solve your technology challenges.</p>
+    <ul>
+      <li>Certified Experts</li>
+      <li>Quick Response</li>
+      <li>Transparent Pricing</li>
+      <li>Customer Focused</li>
+    </ul>
+    <p><strong>Alex Johnson</strong><br/>Founder & Lead Technician</p>
+  </section>
+
+  <section id="vision">
+    <h2>Our Vision</h2>
+    <p>Embracing the future of technology to create seamless digital experiences.</p>
+    <p><strong>Empowering Newcastle, One Device at a Time:</strong> Our vision is to ensure every household and business in Newcastle enjoys fast, secure, and stress-free technology. Whether it's a laptop tune-up or office-wide IT support, we're here to empower locals with tools and tech that just work — every time.</p>
+    <p><strong>Fast, Friendly, and Future-Ready:</strong> We're building an IT support culture that's lightning-fast, down-to-earth, and focused on tomorrow. Our aim? To take the complexity out of computers and give Newcastle a service that's as friendly as it is forward-thinking.</p>
+    <p><strong>Tech That Connects — People, Business, Community:</strong> We believe technology should do more than function — it should connect. We're here to help Newcastle's homes and businesses thrive through reliable IT support that brings people, productivity, and peace of mind together.</p>
+  </section>
+
+  <section id="reviews">
+    <h2>Google Reviews</h2>
+    <article>
+      <h3>John Doe</h3>
+      <blockquote>"The RF.IT fixed my laptop when I thought it was beyond repair. Not only did they recover all my data, but they also upgraded my system to run faster than ever. Excellent service!"</blockquote>
+      <small>3 days ago</small>
+    </article>
+    <article>
+      <h3>Sarah Miller</h3>
+      <blockquote>"The team at The RF.IT set up our home network and smart home devices. Everything works flawlessly now, and they took the time to show us how to use everything. Highly recommended!"</blockquote>
+      <small>1 week ago</small>
+    </article>
+    <article>
+      <h3>Robert Johnson</h3>
+      <blockquote>"I run a small business and The RF.IT has been our go-to IT support for years. They're responsive, knowledgeable, and always find cost-effective solutions to our tech problems."</blockquote>
+      <small>2 weeks ago</small>
+    </article>
+    <article>
+      <h3>Emma Wilson</h3>
+      <blockquote>"After my phone screen cracked, The RF.IT replaced it the same day at a fair price. The technician was professional and even applied a screen protector for free. Great service!"</blockquote>
+      <small>3 weeks ago</small>
+    </article>
+    <article>
+      <h3>Michael Brown</h3>
+      <blockquote>"The RF.IT helped me set up a secure home office network during the pandemic. Their knowledge of cybersecurity gave me peace of mind while working with sensitive data from home."</blockquote>
+      <small>1 month ago</small>
+    </article>
+    <article>
+      <h3>Lisa Thompson</h3>
+      <blockquote>"The one-on-one training session I had with The RF.IT was incredibly helpful. They taught me how to use my new devices efficiently and answered all my questions patiently."</blockquote>
+      <small>1 month ago</small>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" />
+      <select name="service">
+        <option value="">Select a service</option>
+        <option value="network">Network Configuration</option>
+        <option value="repairs">Computer Repairs</option>
+        <option value="mobile">Mobile Device Support</option>
+        <option value="security">Security Solutions</option>
+        <option value="smart">Smart Home Setup</option>
+        <option value="training">Tech Training</option>
+      </select>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <h3>Contact Information</h3>
+    <p><strong>Our Location:</strong> 24 Bareki Road, Eleebana, NSW 2282</p>
+    <p><strong>Phone Number:</strong> +61 416 861 525</p>
+    <p><strong>Email:</strong> rfit@therfit.com</p>
+    <p><strong>Business Hours:</strong> Mon-Fri: 9:00 AM - 5:00 PM</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 The RF.IT. All rights reserved.</p>
+    <p>Privacy Policy | Terms of Service | Sitemap</p>
+  </footer>
+</body>
+</html>
